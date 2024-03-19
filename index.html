@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MediaPlayer</title>
+</head>
+<body>
+    <div id="titulo">
+        <marquee behavior="alternate"><h1>MediaPlayer</h1></marquee> 
+    </div>
+   
+    <div class="Contenedor-lista">
+        <select id="cmbPlaylist">
+            <option value="0">Selecciona una canción</option>
+            <!-- Las opciones se agregarán dinámicamente con JavaScript -->
+        </select><br>
+        <div id="contenedorImagen">
+            <img id="imgPlayer" src="Disco.gif" class="ContenedorImagenes" alt="Imagenes"> <!-- Cambié src a la imagen por defecto -->
+        </div>
+        <audio id="audioPlayer" controls>
+            <source id="audioSource" src="" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>

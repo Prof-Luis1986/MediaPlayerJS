@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(45deg, #1f2020 , #091749);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo CSS para el contenedor de la imagen */
+#imgPlayer {
+    width: 300px; /* Establece el ancho deseado */
+    height: 300px; /* Establece la altura deseada */
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    border-radius: 20%;
+}
+
+.Contenedor-lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ajusta la altura del contenedor al 100% de la ventana */
+}
+
+.ContendedorImagenes {
+    width: 300px; /* Ancho deseado para la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    /* Estilos adicionales para la imagen si es necesario */
+}
+
+#titulo{
+    background-color: #091749;
+    border-radius: 20%;
+    color:white;
+}
+
