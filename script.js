@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { id: 1, nombre: "Honey, No Estás-Bratty", archivo: "Honey,No Estás.mp3", imagen: "Honey.jpeg" },
         { id: 2, nombre: "Instant Crush ft Julian Casablancas", archivo: "Daft Punk - Instant Crush (Lyrics) ft. Julian Casablancas.mp3", imagen: "Instan.jpeg" },
         {id:3, nombre: "Crimen-Bruses", archivo: "Crimen-Bruses.mp3", imagen: "Bruses.jpg"},
-        {id:4, nombre: "Jules-Bratty", archivo:"Jules.mp3",imagen: "Jules.jpeg"},
+        {id:4, nombre: "Jules-Bratty", archivo:"Jules.mp3",imagen: "jules.jpeg"},
     ];
 
     // Agrega las opciones de la lista desplegable
